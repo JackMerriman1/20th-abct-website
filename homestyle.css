@@ -1,0 +1,86 @@
+body {
+    background-color: #22107d;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+.navbar {
+    background-color: #22107d; /* Corrected color */
+    display: flex;
+    justify-content: right; /* Evenly distribute space between items */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  .logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .logo img {
+    height: 60px; /* Adjust height as needed */
+    margin: 3px;
+  }
+.navbar li {
+    display: inline-block;
+    align-items: center;
+    margin: 10px; /* Space between items */
+}
+  
+.navbar li a {
+    text-decoration: none;
+    color: white; /* Change the link color */
+}
+
+.navbar Home {
+    margin: 15;
+    padding: 15;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+h2 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.youtubeVideo-container {
+    position: relative;
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.youtubeVideo-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#discordButton {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #7289da;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#discordButton:hover{
+    transform: translateX(-50%) scale(1.2);
+}
